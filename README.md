@@ -1,13 +1,4 @@
-# Sample Hardhat Project
+# Hardhat boilerplate with hardhat-deploy
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+This is a simple boilerplate for hardhat that using hardhat-deploy to deploy the contract.
+We can put all the deployment scripts in deploy folder and the scripts will be executed sequentially based on number on the files name. Or we can deploy with specific tags.
