@@ -5,7 +5,8 @@
   "scripts": {
     "build": "npx hardhat compile",
     "node": "npx hardhat node",
-    "deploy": "npx hardhat deploy"
+    "deploy": "npx hardhat deploy",
+    "test": "npx hardhat test"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.7.0",
