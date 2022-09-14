@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "author": "Felix Lambert",
   "scripts": {
-    "build": "npx hardhat compile"
+    "build": "npx hardhat compile",
+    "node": "npx hardhat node",
+    "deploy": "npx hardhat deploy"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.7.0",
